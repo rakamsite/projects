@@ -1,0 +1,13 @@
+cluster_id,page_type,target_url,primary_keyword,secondary_keywords,intent,priority,status,inventory_signal,notes
+SAF-KW-001,hub,/truck-parts/mercedes-benz/,لوازم یدکی کامیون بنز,"قطعات کامیون بنز|قطعات ماشین سنگین بنز|خرید قطعات بنز",commercial,P1,planned,2749-total,Parent hub for Mercedes truck families
+SAF-KW-002,vehicle,/truck-parts/mercedes-benz/axor/,لوازم یدکی اکسور,"قطعات اکسور|قطعات آکسور|خرید قطعات اکسور|قیمت قطعات اکسور",commercial,P1,blocked,355-title-mentions,Blocked until verified fitment mapping
+SAF-KW-003,vehicle,/truck-parts/mercedes-benz/atego/,لوازم یدکی آتگو,"لوازم اتگو|قطعات آتگو|قطعات اتگو",commercial,P1,blocked,324-title-mentions,Alternate spelling stays on one URL
+SAF-KW-004,vehicle,/truck-parts/mercedes-benz/actros/,لوازم یدکی اکتروس,"قطعات اکتروس|قطعات آکتروس|لوازم آکتروس",commercial,P1,blocked,241-title-mentions,Alternate spelling stays on one URL
+SAF-KW-005,subsystem,/truck-parts/mercedes-benz/axor/gearbox/,قطعات گیربکس اکسور,"لوازم گیربکس اکسور|دنده گیربکس اکسور",commercial,P2,conditional,title-rule-signal,Publish only after verified product threshold
+SAF-KW-006,subsystem,/truck-parts/mercedes-benz/axor/engine/,لوازم موتور اکسور,"قطعات موتوری اکسور|قطعات موتور آکسور",commercial,P2,conditional,title-rule-signal,Publish only after verified product threshold
+SAF-KW-007,subsystem,/truck-parts/mercedes-benz/axor/cabin-body/,لوازم بدنه اکسور,"قطعات اتاق اکسور|لوازم کابین اکسور",commercial,P2,conditional,title-rule-signal,Body and cabin may split later only with data
+SAF-KW-008,subsystem,/truck-parts/mercedes-benz/axor/brake-air/,قطعات ترمز اکسور,"لوازم ترمز آکسور|قطعات سیستم باد اکسور",commercial,P2,conditional,title-rule-signal,Keep air system in same page for pilot
+SAF-KW-009,subsystem,/truck-parts/mercedes-benz/axor/clutch/,لوازم کلاچ اکسور,"قطعات کلاچ آکسور|پمپ کلاچ اکسور",commercial,P2,conditional,title-rule-signal,Publish only after verified product threshold
+SAF-KW-010,subsystem,/truck-parts/mercedes-benz/axor/electrical/,لوازم برقی اکسور,"سنسور اکسور|قطعات برق آکسور",commercial,P2,conditional,title-rule-signal,Product and troubleshooting intent must remain separate
+SAF-KW-011,model,/truck-parts/mercedes-benz/actros/1843/,قطعات اکتروس 1843,"لوازم یدکی اکتروس 1843|قطعات آکتروس 1843",commercial,P2,conditional,22-title-mentions,Verify differences from family page
+SAF-KW-012,model,/truck-parts/mercedes-benz/actros/1844/,قطعات اکتروس 1844,"لوازم یدکی اکتروس 1844|قطعات آکتروس 1844",commercial,P2,conditional,21-title-mentions,Verify differences from family page
